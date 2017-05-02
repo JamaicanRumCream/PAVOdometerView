@@ -169,7 +169,7 @@
         // the digits.length is less than the amount to rotate, ie 99 < 100 ie
         // where 1 is carried for 10s or 100s column, so carry a 1 again
         if ([thisEndingDigit integerValue] < [thisStartDigit integerValue] ||
-            [[NSString stringWithFormat:@"%ld", diffDigitsUpToHere] length] < [[NSString stringWithFormat:@"%ld", amountToRotate] length]) {
+            [[NSString stringWithFormat:@"%lu", (unsigned long)diffDigitsUpToHere] length] < [[NSString stringWithFormat:@"%lu", (unsigned long)amountToRotate] length]) {
             rolloverAmount = 1;
         } else {
             rolloverAmount = 0;

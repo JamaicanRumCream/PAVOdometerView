@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'PAVOdometerView/Classes/**/*'
+  s.source_files = 'PAVOdometerView/Classes/**/*.{h,m}'
   
   #s.resource_bundles = {
   #    'PAVOdometerView' => ['PAVOdometerView/Assets/*.png']
