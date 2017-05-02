@@ -10,6 +10,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+XCode, Cocoapods
 
 ## Installation
 
@@ -26,4 +27,4 @@ Chris Paveglio, chris@paveglio.com
 
 ## License
 
-PAVOdometerView is available under the MIT license. See the LICENSE file for more info.
+PAVOdometerView is available under the WTFPL license. See the LICENSE file for more info.

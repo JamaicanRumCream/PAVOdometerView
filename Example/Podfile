@@ -1,5 +1,7 @@
 use_frameworks!
 
+platform :ios, '9.0'
+
 target 'PAVOdometerView_Example' do
   pod 'PAVOdometerView', :path => '../'
 
