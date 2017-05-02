@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   #    'PAVOdometerView' => ['PAVOdometerView/Assets/*.png']
   #  }
 
-  s.public_header_files = 'Pod/Classes/PublicHeaders/*.h'
+  s.ios.public_header_files = 'PAVOdometerView/Classes/PublicHeaders/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
