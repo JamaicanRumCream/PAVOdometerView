@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PAVOdometerView: 2e19340c4f92de3eec5d670935d5ed9e08d6f8be
+  PAVOdometerView: c43b44f29e5841efc82ea4767db13a035d80d09f
 
 PODFILE CHECKSUM: ce146abefd975550e5a94fd723aca4d4e773ac02
 

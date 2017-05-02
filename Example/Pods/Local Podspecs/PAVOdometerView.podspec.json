@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "PAVOdometerView/Classes/**/*"
+  "source_files": "PAVOdometerView/Classes/**/*",
+  "resource_bundles": {
+    "PAVOdometerView": [
+      "PAVOdometerView/Assets/*.png"
+    ]
+  }
 }

@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10011F61A637CE750DE1F1D1501721FA /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D49B79DE5E7F05B4D890289892D8E927 /* UIImage+Additions.m */; };
-		4A5077D29D203136D36687B19B5436C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		17159E3990DDD24DDB345EE0688F4AE5 /* PAVOdometerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDFC5C5D5988DEF37675D6D2C363BF96 /* PAVOdometerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F6B7058C563539EA4CA73BC04C6DEED /* UIImage+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD45F68DA2E29527621C18F63E72626 /* UIImage+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5688C5174765CA6CF7CF8E2D67A5FE7A /* Pods-PAVOdometerView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF09C70920EE2203427CA420EB29F25B /* Pods-PAVOdometerView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C69ECBDEAA8A470960C46401DB72DA9 /* PAVOdometerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFDFD75F882025725EDC955062168D4 /* PAVOdometerView.m */; };
+		5F78A2A81EB9094300C4046A /* NumberColumn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F78A2A71EB9094300C4046A /* NumberColumn.png */; };
+		5F78A2A91EB9094300C4046A /* NumberColumn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F78A2A71EB9094300C4046A /* NumberColumn.png */; };
+		75916B2E4775E246DF4BE4B5A7414DC0 /* PAVOdometerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BD17F0F0145A4C329439DFD629AF4C /* PAVOdometerView.m */; };
+		77B7CB1EA56E29C9F0ED0B723E714D24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7A69A9D3988BEB6572410ADC43688137 /* PAVOdometerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7AEACED8CC0CBC0D059E5F66EAA7221B /* PAVOdometerView.bundle */; };
 		8A57195956ED474839AC2908FD844EAF /* Pods-PAVOdometerView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB3C2474A0300AEF03CAF2710490D6F0 /* Pods-PAVOdometerView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8BCCC69B337E7FD513840BA085B5E839 /* Pods-PAVOdometerView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1A2A73A14F6CA96ACE8770E869D337 /* Pods-PAVOdometerView_Tests-dummy.m */; };
-		959EBF47543CCD19FADABE7FC6C22D9B /* PAVOdometerView.h in Headers */ = {isa = PBXBuildFile; fileRef = CD7115132A6D00CEDD9485B444932AE5 /* PAVOdometerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96297709A177F15E7F4875F3801B8089 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9BA5892FB82BF857EB8C16DDC50DC16E /* PAVOdometerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 35D6F1D155553A874FE042E6EE557478 /* PAVOdometerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C300CDA49D8C58A5ECC2717748DB1F5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		C85B58F95E7EE0FDA25B9B980E6C5D4B /* Pods-PAVOdometerView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D010B0F930CD0B605AE3141F37E40EF8 /* Pods-PAVOdometerView_Example-dummy.m */; };
-		D29F17778AEA03E51572C07FD809A69B /* PAVOdometerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F22DE97908128287E12B5347EC96E28 /* PAVOdometerView-dummy.m */; };
-		D498482DE7D863FD519079EABBB1B845 /* PAVOdometerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12094D46748454531A9CF91CCA72A16E /* PAVOdometerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F309A316846F3EC0886107AFBEC44050 /* UIImage+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = AC4CD6081D79AD95834C894C722F06A3 /* UIImage+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF05E6A84A81B9D0D05489DE40D1B772 /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F18EE2730B4A0B8ED966F128259AC8A7 /* UIImage+Additions.m */; };
+		D135034FB1F8C025301114A078246B7E /* NumberColumn.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D29FCF56C979C176F70310B566A775D /* NumberColumn.png */; };
+		EBC9C711FBE9BA97F8CF4BD8A53F06BB /* PAVOdometerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D948E972D9D9DC6425581835E2FAEDAC /* PAVOdometerView-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,51 +31,69 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E94F72810F8D22EF0DAD793378218697;
+			remoteGlobalIDString = 5758FF21BC8830B317AB7833673A49D1;
 			remoteInfo = PAVOdometerView;
+		};
+		A42E684ED4EB159A8D45324C709277B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBA80FA970473D077F8C8E550C104E69;
+			remoteInfo = "PAVOdometerView-PAVOdometerView";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CFDFD75F882025725EDC955062168D4 /* PAVOdometerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PAVOdometerView.m; sourceTree = "<group>"; };
+		0AB3E7472559FFD7CDCA602B2EF88633 /* Pods_PAVOdometerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PAVOdometerView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E6625F21734293D7006BED2493B0ACD /* Pods-PAVOdometerView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PAVOdometerView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		12094D46748454531A9CF91CCA72A16E /* PAVOdometerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PAVOdometerView-umbrella.h"; sourceTree = "<group>"; };
-		16D92B3E0C5336984A5949F5FA29B2BF /* PAVOdometerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PAVOdometerView-prefix.pch"; sourceTree = "<group>"; };
+		1D29FCF56C979C176F70310B566A775D /* NumberColumn.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = NumberColumn.png; sourceTree = "<group>"; };
 		2043ACD79AF4AB655AD5F5A631C41169 /* Pods-PAVOdometerView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PAVOdometerView_Tests.modulemap"; sourceTree = "<group>"; };
-		2F22DE97908128287E12B5347EC96E28 /* PAVOdometerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PAVOdometerView-dummy.m"; sourceTree = "<group>"; };
 		35CC6E64D14762299EBF740F3BEE6D9D /* Pods-PAVOdometerView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PAVOdometerView_Example.modulemap"; sourceTree = "<group>"; };
-		367DC715E5C59CFA704013432543DD15 /* Pods_PAVOdometerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PAVOdometerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D6F1D155553A874FE042E6EE557478 /* PAVOdometerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PAVOdometerView.h; sourceTree = "<group>"; };
+		370F272DA9F47FED623674CC43C7AD2C /* Pods_PAVOdometerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PAVOdometerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A923D995FD9FBEA1B2400D46A1183D4 /* PAVOdometerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PAVOdometerView.xcconfig; sourceTree = "<group>"; };
+		3CEFCA6F0D89A3842D158AEC17B194B8 /* PAVOdometerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PAVOdometerView-prefix.pch"; sourceTree = "<group>"; };
 		43A03F6C6F7DA1194F6FFFAACDB21CA3 /* Pods-PAVOdometerView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PAVOdometerView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5F78A2A51EB9081D00C4046A /* NumberColumn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberColumn.png; sourceTree = "<group>"; };
+		4710C08CB87C7D7E3C8F519EBE3A4359 /* ResourceBundle-PAVOdometerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PAVOdometerView-Info.plist"; sourceTree = "<group>"; };
+		53BD17F0F0145A4C329439DFD629AF4C /* PAVOdometerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PAVOdometerView.m; sourceTree = "<group>"; };
+		5F78A2A71EB9094300C4046A /* NumberColumn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NumberColumn.png; path = Assets/NumberColumn.png; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		66C165071DE2708DBB0D593691377CAE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		717F6688811E8E002BACBE7E2F312FD9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7CC2C43909BA33952912FA8032890C63 /* PAVOdometerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PAVOdometerView.xcconfig; sourceTree = "<group>"; };
+		7AEACED8CC0CBC0D059E5F66EAA7221B /* PAVOdometerView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PAVOdometerView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F81F7BB9F62EAEAD899C8E36D6B896 /* Pods-PAVOdometerView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PAVOdometerView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		85113C176172FD658EEEA73ACE715150 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B1A2A73A14F6CA96ACE8770E869D337 /* Pods-PAVOdometerView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PAVOdometerView_Tests-dummy.m"; sourceTree = "<group>"; };
 		9D6CEDFC4DC807880C9912A8FA57B9CC /* Pods-PAVOdometerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PAVOdometerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A697D76517484FFF4E102E4DFA8EDB17 /* Pods-PAVOdometerView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PAVOdometerView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AAA11801639D8624F373195D4466EBF7 /* PAVOdometerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PAVOdometerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC4CD6081D79AD95834C894C722F06A3 /* UIImage+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
 		B61CA7BE50532221E2E3739A5EDB9D18 /* Pods-PAVOdometerView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PAVOdometerView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		C1E90E5FED29677AE8A2CEE8960E1484 /* Pods_PAVOdometerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PAVOdometerView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD7115132A6D00CEDD9485B444932AE5 /* PAVOdometerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PAVOdometerView.h; sourceTree = "<group>"; };
+		C5D42E7C7407499675C2493C0653CFE1 /* PAVOdometerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PAVOdometerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD45F68DA2E29527621C18F63E72626 /* UIImage+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
 		CE71150B2FA436DD88B7A4764091D536 /* Pods-PAVOdometerView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PAVOdometerView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D010B0F930CD0B605AE3141F37E40EF8 /* Pods-PAVOdometerView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PAVOdometerView_Example-dummy.m"; sourceTree = "<group>"; };
-		D27FCC660D8826FDA5A7B1E9ABE09A53 /* PAVOdometerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PAVOdometerView.modulemap; sourceTree = "<group>"; };
-		D49B79DE5E7F05B4D890289892D8E927 /* UIImage+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
 		D61C3253A7468F2E8E01790D4C64672A /* Pods-PAVOdometerView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PAVOdometerView_Example-resources.sh"; sourceTree = "<group>"; };
+		D948E972D9D9DC6425581835E2FAEDAC /* PAVOdometerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PAVOdometerView-dummy.m"; sourceTree = "<group>"; };
 		DB3C2474A0300AEF03CAF2710490D6F0 /* Pods-PAVOdometerView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PAVOdometerView_Example-umbrella.h"; sourceTree = "<group>"; };
 		DF09C70920EE2203427CA420EB29F25B /* Pods-PAVOdometerView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PAVOdometerView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DFAFCE3B16400B3900B795C2B8B537B1 /* Pods-PAVOdometerView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PAVOdometerView_Tests-resources.sh"; sourceTree = "<group>"; };
+		E390D2204C0C1853852BC065FFA48F45 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDFC5C5D5988DEF37675D6D2C363BF96 /* PAVOdometerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PAVOdometerView-umbrella.h"; sourceTree = "<group>"; };
+		F18EE2730B4A0B8ED966F128259AC8A7 /* UIImage+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
 		F4C216338CFBA7149A820AD2E89A05B7 /* Pods-PAVOdometerView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PAVOdometerView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F5823E68F52347E44E2EE1BB4BB220D2 /* Pods-PAVOdometerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PAVOdometerView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F80413A06D45CD650D03821C0F3B2DD9 /* PAVOdometerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PAVOdometerView.modulemap; sourceTree = "<group>"; };
 		FC559BDCBA394273D1A88EF3E027947A /* Pods-PAVOdometerView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PAVOdometerView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2A45AE7938B1B29E9EA40830C287A9A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77B7CB1EA56E29C9F0ED0B723E714D24 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		502D88957E77FD4F6130F2ECB7CC2274 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -80,11 +102,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97F8CD5D9551D05124489ED8E709A9EA /* Frameworks */ = {
+		9D6322CC3443DD1F80DBD3BD580F7BE1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A5077D29D203136D36687B19B5436C8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +120,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23B8863480930C3FEB8ED0CF940637AA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C5101C31C1B9FE2D949476F19772493 /* PAVOdometerView */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		243DD777F07B8C5B6AB30C6BB023A311 /* Pods-PAVOdometerView_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +146,21 @@
 			path = "Target Support Files/Pods-PAVOdometerView_Example";
 			sourceTree = "<group>";
 		};
+		327B5A2101FECA737CF405631CBBCC32 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E390D2204C0C1853852BC065FFA48F45 /* Info.plist */,
+				F80413A06D45CD650D03821C0F3B2DD9 /* PAVOdometerView.modulemap */,
+				3A923D995FD9FBEA1B2400D46A1183D4 /* PAVOdometerView.xcconfig */,
+				D948E972D9D9DC6425581835E2FAEDAC /* PAVOdometerView-dummy.m */,
+				3CEFCA6F0D89A3842D158AEC17B194B8 /* PAVOdometerView-prefix.pch */,
+				EDFC5C5D5988DEF37675D6D2C363BF96 /* PAVOdometerView-umbrella.h */,
+				4710C08CB87C7D7E3C8F519EBE3A4359 /* ResourceBundle-PAVOdometerView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PAVOdometerView";
+			sourceTree = "<group>";
+		};
 		369B9D699EEE09BC449B37BF5621C9A8 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,15 +168,6 @@
 				5B3770606421EA4351AF33F068BD9EE4 /* Pods-PAVOdometerView_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		4D84E72B5FC84695277EFAA6732CC1B2 /* PAVOdometerView */ = {
-			isa = PBXGroup;
-			children = (
-				5F78A2A31EB9081D00C4046A /* Assets */,
-				FC24D49861DC541547BFF0AFE3533CE1 /* Classes */,
-			);
-			path = PAVOdometerView;
 			sourceTree = "<group>";
 		};
 		5B3770606421EA4351AF33F068BD9EE4 /* Pods-PAVOdometerView_Tests */ = {
@@ -153,65 +188,69 @@
 			path = "Target Support Files/Pods-PAVOdometerView_Tests";
 			sourceTree = "<group>";
 		};
-		5F78A2A31EB9081D00C4046A /* Assets */ = {
+		5F78A2A61EB9092D00C4046A /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				5F78A2A51EB9081D00C4046A /* NumberColumn.png */,
+				5F78A2A71EB9094300C4046A /* NumberColumn.png */,
 			);
-			path = Assets;
+			name = Assets;
 			sourceTree = "<group>";
 		};
-		6F18AC51D29B04BC3461DC7830C92E4B /* Support Files */ = {
+		649F0651C15EC9A3C9E3E31956ABCB08 /* PAVOdometerView */ = {
 			isa = PBXGroup;
 			children = (
-				66C165071DE2708DBB0D593691377CAE /* Info.plist */,
-				D27FCC660D8826FDA5A7B1E9ABE09A53 /* PAVOdometerView.modulemap */,
-				7CC2C43909BA33952912FA8032890C63 /* PAVOdometerView.xcconfig */,
-				2F22DE97908128287E12B5347EC96E28 /* PAVOdometerView-dummy.m */,
-				16D92B3E0C5336984A5949F5FA29B2BF /* PAVOdometerView-prefix.pch */,
-				12094D46748454531A9CF91CCA72A16E /* PAVOdometerView-umbrella.h */,
+				FD0678C31FFFB6F7FE3907C0AAAFA801 /* PAVOdometerView */,
+				23B8863480930C3FEB8ED0CF940637AA /* Resources */,
+				327B5A2101FECA737CF405631CBBCC32 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PAVOdometerView";
+			name = PAVOdometerView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6C5101C31C1B9FE2D949476F19772493 /* PAVOdometerView */ = {
+			isa = PBXGroup;
+			children = (
+				B402230E5EEA7135CBD50401FD257997 /* Assets */,
+			);
+			path = PAVOdometerView;
+			sourceTree = "<group>";
+		};
+		74073A3E1F65E6037BE2F925D82AFD08 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				35D6F1D155553A874FE042E6EE557478 /* PAVOdometerView.h */,
+				53BD17F0F0145A4C329439DFD629AF4C /* PAVOdometerView.m */,
+				CDD45F68DA2E29527621C18F63E72626 /* UIImage+Additions.h */,
+				F18EE2730B4A0B8ED966F128259AC8A7 /* UIImage+Additions.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				8D02337CE311C3C399B6D205050E5A4E /* Development Pods */,
+				9FDC2D2B24BC56F65726AC2FE2C21DD3 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				A49D38BDFB7BBE1FC9179D1799799A39 /* Products */,
+				CDE291144186EBDC5C283BCBA38578A3 /* Products */,
 				369B9D699EEE09BC449B37BF5621C9A8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8D02337CE311C3C399B6D205050E5A4E /* Development Pods */ = {
+		9FDC2D2B24BC56F65726AC2FE2C21DD3 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A7E21F21E3281292884B2E0732CE23EF /* PAVOdometerView */,
+				649F0651C15EC9A3C9E3E31956ABCB08 /* PAVOdometerView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		A49D38BDFB7BBE1FC9179D1799799A39 /* Products */ = {
+		B402230E5EEA7135CBD50401FD257997 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				AAA11801639D8624F373195D4466EBF7 /* PAVOdometerView.framework */,
-				367DC715E5C59CFA704013432543DD15 /* Pods_PAVOdometerView_Example.framework */,
-				C1E90E5FED29677AE8A2CEE8960E1484 /* Pods_PAVOdometerView_Tests.framework */,
+				1D29FCF56C979C176F70310B566A775D /* NumberColumn.png */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A7E21F21E3281292884B2E0732CE23EF /* PAVOdometerView */ = {
-			isa = PBXGroup;
-			children = (
-				4D84E72B5FC84695277EFAA6732CC1B2 /* PAVOdometerView */,
-				6F18AC51D29B04BC3461DC7830C92E4B /* Support Files */,
-			);
-			name = PAVOdometerView;
-			path = ../..;
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -222,6 +261,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CDE291144186EBDC5C283BCBA38578A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AEACED8CC0CBC0D059E5F66EAA7221B /* PAVOdometerView.bundle */,
+				C5D42E7C7407499675C2493C0653CFE1 /* PAVOdometerView.framework */,
+				370F272DA9F47FED623674CC43C7AD2C /* Pods_PAVOdometerView_Example.framework */,
+				0AB3E7472559FFD7CDCA602B2EF88633 /* Pods_PAVOdometerView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -230,35 +280,33 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		FC24D49861DC541547BFF0AFE3533CE1 /* Classes */ = {
+		FD0678C31FFFB6F7FE3907C0AAAFA801 /* PAVOdometerView */ = {
 			isa = PBXGroup;
 			children = (
-				CD7115132A6D00CEDD9485B444932AE5 /* PAVOdometerView.h */,
-				0CFDFD75F882025725EDC955062168D4 /* PAVOdometerView.m */,
-				AC4CD6081D79AD95834C894C722F06A3 /* UIImage+Additions.h */,
-				D49B79DE5E7F05B4D890289892D8E927 /* UIImage+Additions.m */,
+				5F78A2A61EB9092D00C4046A /* Assets */,
+				74073A3E1F65E6037BE2F925D82AFD08 /* Classes */,
 			);
-			path = Classes;
+			path = PAVOdometerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		251A38AAD6A3BFD526CB40E5F78B9138 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17159E3990DDD24DDB345EE0688F4AE5 /* PAVOdometerView-umbrella.h in Headers */,
+				9BA5892FB82BF857EB8C16DDC50DC16E /* PAVOdometerView.h in Headers */,
+				2F6B7058C563539EA4CA73BC04C6DEED /* UIImage+Additions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		524EB89C06B8367907ED56344BF34CC7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5688C5174765CA6CF7CF8E2D67A5FE7A /* Pods-PAVOdometerView_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD33FDFDFC81D0D9780A8E4C9FCD3B8E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D498482DE7D863FD519079EABBB1B845 /* PAVOdometerView-umbrella.h in Headers */,
-				959EBF47543CCD19FADABE7FC6C22D9B /* PAVOdometerView.h in Headers */,
-				F309A316846F3EC0886107AFBEC44050 /* UIImage+Additions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +335,26 @@
 			);
 			name = "Pods-PAVOdometerView_Tests";
 			productName = "Pods-PAVOdometerView_Tests";
-			productReference = C1E90E5FED29677AE8A2CEE8960E1484 /* Pods_PAVOdometerView_Tests.framework */;
+			productReference = 0AB3E7472559FFD7CDCA602B2EF88633 /* Pods_PAVOdometerView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5758FF21BC8830B317AB7833673A49D1 /* PAVOdometerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6366009730034865E6DCDF50EC059399 /* Build configuration list for PBXNativeTarget "PAVOdometerView" */;
+			buildPhases = (
+				DD96711C3D68E871454A3426C37E0F8C /* Sources */,
+				2A45AE7938B1B29E9EA40830C287A9A9 /* Frameworks */,
+				0B34CF71DB632FC18A93934D9D24C256 /* Resources */,
+				251A38AAD6A3BFD526CB40E5F78B9138 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60110B345690026B8F5F5829A4F7E0EF /* PBXTargetDependency */,
+			);
+			name = PAVOdometerView;
+			productName = PAVOdometerView;
+			productReference = C5D42E7C7407499675C2493C0653CFE1 /* PAVOdometerView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		897000770E1874D32E6510527BA3486B /* Pods-PAVOdometerView_Example */ = {
@@ -305,25 +372,25 @@
 			);
 			name = "Pods-PAVOdometerView_Example";
 			productName = "Pods-PAVOdometerView_Example";
-			productReference = 367DC715E5C59CFA704013432543DD15 /* Pods_PAVOdometerView_Example.framework */;
+			productReference = 370F272DA9F47FED623674CC43C7AD2C /* Pods_PAVOdometerView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E94F72810F8D22EF0DAD793378218697 /* PAVOdometerView */ = {
+		FBA80FA970473D077F8C8E550C104E69 /* PAVOdometerView-PAVOdometerView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C2B39D32BAB7E1D1D582EC501B5ECCD /* Build configuration list for PBXNativeTarget "PAVOdometerView" */;
+			buildConfigurationList = 173F05352FCC03105A2BC2110FBDE824 /* Build configuration list for PBXNativeTarget "PAVOdometerView-PAVOdometerView" */;
 			buildPhases = (
-				6793A21196CA38B43932B43FDC8237B1 /* Sources */,
-				97F8CD5D9551D05124489ED8E709A9EA /* Frameworks */,
-				CD33FDFDFC81D0D9780A8E4C9FCD3B8E /* Headers */,
+				5B0F3E5BEF974F84BEB7BF51E27E253B /* Sources */,
+				9D6322CC3443DD1F80DBD3BD580F7BE1 /* Frameworks */,
+				C229AAF489C4C9D4A30E96030BD01B71 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PAVOdometerView;
-			productName = PAVOdometerView;
-			productReference = AAA11801639D8624F373195D4466EBF7 /* PAVOdometerView.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "PAVOdometerView-PAVOdometerView";
+			productName = "PAVOdometerView-PAVOdometerView";
+			productReference = 7AEACED8CC0CBC0D059E5F66EAA7221B /* PAVOdometerView.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -342,25 +409,44 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = A49D38BDFB7BBE1FC9179D1799799A39 /* Products */;
+			productRefGroup = CDE291144186EBDC5C283BCBA38578A3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E94F72810F8D22EF0DAD793378218697 /* PAVOdometerView */,
+				5758FF21BC8830B317AB7833673A49D1 /* PAVOdometerView */,
+				FBA80FA970473D077F8C8E550C104E69 /* PAVOdometerView-PAVOdometerView */,
 				897000770E1874D32E6510527BA3486B /* Pods-PAVOdometerView_Example */,
 				3597715B42ACD38F0781FE1799258B2B /* Pods-PAVOdometerView_Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		0B34CF71DB632FC18A93934D9D24C256 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F78A2A81EB9094300C4046A /* NumberColumn.png in Resources */,
+				7A69A9D3988BEB6572410ADC43688137 /* PAVOdometerView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C229AAF489C4C9D4A30E96030BD01B71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F78A2A91EB9094300C4046A /* NumberColumn.png in Resources */,
+				D135034FB1F8C025301114A078246B7E /* NumberColumn.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		6793A21196CA38B43932B43FDC8237B1 /* Sources */ = {
+		5B0F3E5BEF974F84BEB7BF51E27E253B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D29F17778AEA03E51572C07FD809A69B /* PAVOdometerView-dummy.m in Sources */,
-				7C69ECBDEAA8A470960C46401DB72DA9 /* PAVOdometerView.m in Sources */,
-				10011F61A637CE750DE1F1D1501721FA /* UIImage+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,18 +466,66 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DD96711C3D68E871454A3426C37E0F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC9C711FBE9BA97F8CF4BD8A53F06BB /* PAVOdometerView-dummy.m in Sources */,
+				75916B2E4775E246DF4BE4B5A7414DC0 /* PAVOdometerView.m in Sources */,
+				CF05E6A84A81B9D0D05489DE40D1B772 /* UIImage+Additions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		16593260BB557BCB1B9CEF98159AAD9B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PAVOdometerView;
-			target = E94F72810F8D22EF0DAD793378218697 /* PAVOdometerView */;
+			target = 5758FF21BC8830B317AB7833673A49D1 /* PAVOdometerView */;
 			targetProxy = 6D81C812C86C97135C43B128F8E2147D /* PBXContainerItemProxy */;
+		};
+		60110B345690026B8F5F5829A4F7E0EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PAVOdometerView-PAVOdometerView";
+			target = FBA80FA970473D077F8C8E550C104E69 /* PAVOdometerView-PAVOdometerView */;
+			targetProxy = A42E684ED4EB159A8D45324C709277B0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0DC908FEAAF8C5DB6C65DC1817FCEB6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A923D995FD9FBEA1B2400D46A1183D4 /* PAVOdometerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PAVOdometerView/PAVOdometerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PAVOdometerView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PAVOdometerView/PAVOdometerView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PAVOdometerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		0DFDD8FA10FE81D91BB66DA5BC3B2D9B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A697D76517484FFF4E102E4DFA8EDB17 /* Pods-PAVOdometerView_Tests.debug.xcconfig */;
@@ -420,38 +554,6 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_PAVOdometerView_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1DE2DFF6B1BA2293ADF4F0823546DEC2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CC2C43909BA33952912FA8032890C63 /* PAVOdometerView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PAVOdometerView/PAVOdometerView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PAVOdometerView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PAVOdometerView/PAVOdometerView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = PAVOdometerView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -505,6 +607,55 @@
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3A2529FB2A84881D6B3DE45BFA02B0B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A923D995FD9FBEA1B2400D46A1183D4 /* PAVOdometerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PAVOdometerView/PAVOdometerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PAVOdometerView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PAVOdometerView/PAVOdometerView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PAVOdometerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C232C7014E2554D5319A91FD241E2C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A923D995FD9FBEA1B2400D46A1183D4 /* PAVOdometerView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PAVOdometerView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PAVOdometerView/ResourceBundle-PAVOdometerView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PAVOdometerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -624,38 +775,6 @@
 			};
 			name = Release;
 		};
-		93AA3E714232168033FC4A11E28ABCCE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CC2C43909BA33952912FA8032890C63 /* PAVOdometerView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PAVOdometerView/PAVOdometerView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PAVOdometerView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PAVOdometerView/PAVOdometerView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = PAVOdometerView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		98DAF08F9988F00C847B0A3F8A2451C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0E6625F21734293D7006BED2493B0ACD /* Pods-PAVOdometerView_Tests.release.xcconfig */;
@@ -692,14 +811,31 @@
 			};
 			name = Release;
 		};
+		BBA5195C75614CC782F4BBA78A27916B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A923D995FD9FBEA1B2400D46A1183D4 /* PAVOdometerView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PAVOdometerView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PAVOdometerView/ResourceBundle-PAVOdometerView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PAVOdometerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0C2B39D32BAB7E1D1D582EC501B5ECCD /* Build configuration list for PBXNativeTarget "PAVOdometerView" */ = {
+		173F05352FCC03105A2BC2110FBDE824 /* Build configuration list for PBXNativeTarget "PAVOdometerView-PAVOdometerView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1DE2DFF6B1BA2293ADF4F0823546DEC2 /* Debug */,
-				93AA3E714232168033FC4A11E28ABCCE /* Release */,
+				5C232C7014E2554D5319A91FD241E2C7 /* Debug */,
+				BBA5195C75614CC782F4BBA78A27916B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -709,6 +845,15 @@
 			buildConfigurations = (
 				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
 				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6366009730034865E6DCDF50EC059399 /* Build configuration list for PBXNativeTarget "PAVOdometerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2529FB2A84881D6B3DE45BFA02B0B4 /* Debug */,
+				0DC908FEAAF8C5DB6C65DC1817FCEB6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

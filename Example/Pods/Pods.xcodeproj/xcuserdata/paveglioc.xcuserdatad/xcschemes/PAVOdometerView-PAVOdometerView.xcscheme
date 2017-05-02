@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '5758FF21BC8830B317AB7833673A49D1'
-               BlueprintName = 'PAVOdometerView'
+               BlueprintIdentifier = 'FBA80FA970473D077F8C8E550C104E69'
+               BlueprintName = 'PAVOdometerView-PAVOdometerView'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'PAVOdometerView.framework'>
+               BuildableName = 'PAVOdometerView.bundle'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
