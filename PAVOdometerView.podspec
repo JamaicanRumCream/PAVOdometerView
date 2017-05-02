@@ -11,12 +11,6 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = 'A view that mimics an analog automobile odometer.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = 'A subclass of UIView that mimics an analog automobile odometer. It has multiple columns of numbers that when animated, will "rotate" each column a correct number of times to scroll up to the new number. The animation is not 100% correct in that it does not "rachet" a columns preceding digit, it only smoothly animates all columns simultaneous at this time.'
 
   s.homepage         = 'https://github.com/JamaicanRumCream/PAVOdometerView'
@@ -24,9 +18,9 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'WTFPLCP', :file => 'LICENSE' }
   s.author           = { 'Chris Paveglio' => 'chris@paveglio.com' }
   s.source           = { :git => 'https://github.com/JamaicanRumCream/PAVOdometerView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/chrispaveglio'
+  s.social_media_url = 'https://twitter.com/chrispaveglio'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'PAVOdometerView/Classes/**/*'
   
@@ -34,7 +28,7 @@ Pod::Spec.new do |s|
     'PAVOdometerView' => ['PAVOdometerView/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
