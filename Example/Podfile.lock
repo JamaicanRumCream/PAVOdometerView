@@ -1,0 +1,16 @@
+PODS:
+  - PAVOdometerView (0.1.0)
+
+DEPENDENCIES:
+  - PAVOdometerView (from `../`)
+
+EXTERNAL SOURCES:
+  PAVOdometerView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PAVOdometerView: 7bba3b64561fc3d304c195651135c2dd0b6ea6e0
+
+PODFILE CHECKSUM: ce146abefd975550e5a94fd723aca4d4e773ac02
+
+COCOAPODS: 1.2.1

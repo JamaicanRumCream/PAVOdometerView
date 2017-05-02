@@ -1,0 +1,6 @@
+framework module PAVOdometerView {
+  umbrella header "PAVOdometerView-umbrella.h"
+
+  export *
+  module * { export * }
+}

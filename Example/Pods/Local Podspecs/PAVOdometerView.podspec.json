@@ -1,0 +1,22 @@
+{
+  "name": "PAVOdometerView",
+  "version": "0.1.0",
+  "summary": "A short description of PAVOdometerView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/JamaicanRumCream/PAVOdometerView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "JamaicanRumCream": "chris.paveglio@accuweather.com"
+  },
+  "source": {
+    "git": "https://github.com/JamaicanRumCream/PAVOdometerView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PAVOdometerView/Classes/**/*"
+}

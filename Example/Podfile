@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PAVOdometerView_Example' do
+  pod 'PAVOdometerView', :path => '../'
+
+  target 'PAVOdometerView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
