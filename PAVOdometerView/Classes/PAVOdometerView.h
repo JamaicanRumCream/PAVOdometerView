@@ -32,7 +32,7 @@
 @property (nonatomic, strong) UIImage *odometerFrameImage;
 
 /** Initializes the view with the starting number, b/c you don't always want to start at 0 */
-- (void)setupOdometerWithStartingNumber:(NSUInteger)startingNumber numberColumnImage:(UIImage *)numberColumnImage odometerFrameImage:(UIImage *)odometerFrameImage;
+- (void)setupOdometerWithStartingNumber:(NSUInteger)startingNumber numberColumnImage:(UIImage *)numberColumnImage odometerFrameImage:(UIImage *)odometerFrameImage numberOfDigits:(NSUInteger)numberOfDigits;
 
 /** Animates to the new number, as long as it is higher than current number */
 - (void)animateToNumber:(NSUInteger)newNumber animationTime:(CGFloat)animationTime;

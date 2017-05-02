@@ -10,9 +10,6 @@
 #import "UIImage+Additions.h"
 
 
-#define KNumberOfDigits 5
-
-
 @interface PAVOdometerView ()
 
 /** The initial number to start the odometer at when view is shown */
@@ -21,7 +18,6 @@
 /** Number of digits/columns to display
  NOTE: This property will scale number columns as needed so the associated image assets
  should be size appropriately to fit in the space allotted. Highly layout-coupled.
- Use KNumberOfDigits to control.
  */
 @property (nonatomic, assign) NSUInteger numberOfDigits;
 
@@ -50,7 +46,7 @@
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        _numberOfDigits = KNumberOfDigits;
+        _numberOfDigits = 1;
         self.rotatingDialNumberArray = [NSMutableArray array];
     }
     return self;
@@ -59,19 +55,20 @@
 - (id)initWithCoder:(NSCoder *)aDecoder {
     self = [super initWithCoder:aDecoder];
     if (self) {
-        _numberOfDigits = KNumberOfDigits;
+        _numberOfDigits = 1;
         self.rotatingDialNumberArray = [NSMutableArray array];
     }
     return self;
 }
 
-- (void)setupOdometerWithStartingNumber:(NSUInteger)startingNumber numberColumnImage:(UIImage *)numberColumnImage odometerFrameImage:(UIImage *)odometerFrameImage {
+- (void)setupOdometerWithStartingNumber:(NSUInteger)startingNumber numberColumnImage:(UIImage *)numberColumnImage odometerFrameImage:(UIImage *)odometerFrameImage numberOfDigits:(NSUInteger)numberOfDigits {
     if (!numberColumnImage) {
         NSAssert(false, @"Odometer setup missing the number image");
     }
     _startingNumber = startingNumber ?: 0;
     _numberColumnImage = numberColumnImage;
     _odometerFrameImage = odometerFrameImage;
+    _numberOfDigits = numberOfDigits;
     
     // If an image is provided, add the image view into view
     if (odometerFrameImage) {
@@ -223,7 +220,7 @@
 
 /** Puts leading 0's on a number as a string, with # of chars return to be the # of digits in display */
 - (NSString *)paddedNumberString:(NSUInteger)aNumber {
-    NSString *paddedNumber = [NSString stringWithFormat:@"%0*lu", KNumberOfDigits, (unsigned long)aNumber];
+    NSString *paddedNumber = [NSString stringWithFormat:@"%0*lu", self.numberOfDigits, (unsigned long)aNumber];
     return paddedNumber;
 }
 
