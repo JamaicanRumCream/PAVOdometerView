@@ -42,7 +42,7 @@
 		35CC6E64D14762299EBF740F3BEE6D9D /* Pods-PAVOdometerView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PAVOdometerView_Example.modulemap"; sourceTree = "<group>"; };
 		367DC715E5C59CFA704013432543DD15 /* Pods_PAVOdometerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PAVOdometerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A03F6C6F7DA1194F6FFFAACDB21CA3 /* Pods-PAVOdometerView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PAVOdometerView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5F78A2A21EB9074C00C4046A /* NumberColumn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberColumn.png; sourceTree = "<group>"; };
+		5F78A2A51EB9081D00C4046A /* NumberColumn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberColumn.png; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		66C165071DE2708DBB0D593691377CAE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		717F6688811E8E002BACBE7E2F312FD9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -129,7 +129,7 @@
 		4D84E72B5FC84695277EFAA6732CC1B2 /* PAVOdometerView */ = {
 			isa = PBXGroup;
 			children = (
-				5F78A2A01EB9074C00C4046A /* Assets */,
+				5F78A2A31EB9081D00C4046A /* Assets */,
 				FC24D49861DC541547BFF0AFE3533CE1 /* Classes */,
 			);
 			path = PAVOdometerView;
@@ -153,10 +153,10 @@
 			path = "Target Support Files/Pods-PAVOdometerView_Tests";
 			sourceTree = "<group>";
 		};
-		5F78A2A01EB9074C00C4046A /* Assets */ = {
+		5F78A2A31EB9081D00C4046A /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				5F78A2A21EB9074C00C4046A /* NumberColumn.png */,
+				5F78A2A51EB9081D00C4046A /* NumberColumn.png */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
