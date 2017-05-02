@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		05FF16045E3C67ABAA4CCD0B /* Pods-PAVOdometerView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PAVOdometerView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PAVOdometerView_Tests/Pods-PAVOdometerView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		152DBEAFD787501D98ADBAB8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		152DBEAFD787501D98ADBAB8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3D03FB15F168008B62A9ACA4 /* Pods_PAVOdometerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PAVOdometerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* PAVOdometerView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PAVOdometerView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,10 +63,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73B160107DE1CA6E1D0ABBA2 /* Pods-PAVOdometerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PAVOdometerView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PAVOdometerView_Example/Pods-PAVOdometerView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AD485AE338DD4E54C34DC821 /* PAVOdometerView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PAVOdometerView.podspec; path = ../PAVOdometerView.podspec; sourceTree = "<group>"; };
+		AD485AE338DD4E54C34DC821 /* PAVOdometerView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PAVOdometerView.podspec; path = ../PAVOdometerView.podspec; sourceTree = "<group>"; };
 		CE86F08436917962C7401218 /* Pods-PAVOdometerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PAVOdometerView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PAVOdometerView_Example/Pods-PAVOdometerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D8971235FE43EDE7FD319198 /* Pods_PAVOdometerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PAVOdometerView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBB6581ECABF3A962D4C2E8B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FBB6581ECABF3A962D4C2E8B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = JamaicanRumCream;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 9J2YYDSNEB;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -524,6 +527,7 @@
 			baseConfigurationReference = CE86F08436917962C7401218 /* Pods-PAVOdometerView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9J2YYDSNEB;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PAVOdometerView/PAVOdometerView-Prefix.pch";
 				INFOPLIST_FILE = "PAVOdometerView/PAVOdometerView-Info.plist";
@@ -539,6 +543,7 @@
 			baseConfigurationReference = 73B160107DE1CA6E1D0ABBA2 /* Pods-PAVOdometerView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9J2YYDSNEB;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PAVOdometerView/PAVOdometerView-Prefix.pch";
 				INFOPLIST_FILE = "PAVOdometerView/PAVOdometerView-Info.plist";

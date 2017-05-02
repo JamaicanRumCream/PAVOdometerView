@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "PAVOdometerView.h"
+#import "UIImage+Additions.h"
 
 FOUNDATION_EXPORT double PAVOdometerViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char PAVOdometerViewVersionString[];
