@@ -24,9 +24,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'PAVOdometerView/Classes/**/*'
   
-  s.resource_bundles = {
-    'PAVOdometerView' => ['PAVOdometerView/Assets/*.png']
-  }
+  #s.resource_bundles = {
+  #    'PAVOdometerView' => ['PAVOdometerView/Assets/*.png']
+  #  }
 
   s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
