@@ -1,4 +1,5 @@
 # PAVOdometerView
+WARNING! This repo still under heavy construction!
 
 [![CI Status](http://img.shields.io/travis/Chris Paveglio/PAVOdometerView.svg?style=flat)](https://travis-ci.org/Chris Paveglio/PAVOdometerView)
 [![Version](https://img.shields.io/cocoapods/v/PAVOdometerView.svg?style=flat)](http://cocoapods.org/pods/PAVOdometerView)
