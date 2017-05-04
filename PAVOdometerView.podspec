@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PAVOdometerView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A view that mimics an analog automobile odometer.'
 
   s.description      = 'A subclass of UIView that mimics an analog automobile odometer. It has multiple columns of numbers that when animated, will "rotate" each column a correct number of times to scroll up to the new number. The animation is not 100% correct in that it does not "rachet" a columns preceding digit, it only smoothly animates all columns simultaneous at this time.'
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   #    'PAVOdometerView' => ['PAVOdometerView/Assets/*.png']
   #  }
 
-  s.ios.public_header_files = 'PAVOdometerView/Classes/PublicHeaders/*.h'
+s.ios.public_header_files = 'PAVOdometerView/Classes/*.{h}'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
