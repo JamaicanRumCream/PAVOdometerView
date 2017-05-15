@@ -1,6 +1,6 @@
 {
   "name": "PAVOdometerView",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A view that mimics an analog automobile odometer.",
   "description": "A subclass of UIView that mimics an analog automobile odometer. It has multiple columns of numbers that when animated, will \"rotate\" each column a correct number of times to scroll up to the new number. The animation is not 100% correct in that it does not \"rachet\" a columns preceding digit, it only smoothly animates all columns simultaneous at this time.",
   "homepage": "https://github.com/JamaicanRumCream/PAVOdometerView",
@@ -13,12 +13,14 @@
   },
   "source": {
     "git": "https://github.com/JamaicanRumCream/PAVOdometerView.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "social_media_url": "https://twitter.com/chrispaveglio",
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "PAVOdometerView/Classes/**/*",
-  "public_header_files": "Pod/Classes/**/*.h"
+  "source_files": "PAVOdometerView/Classes/**/*.{h,m}",
+  "ios": {
+    "public_header_files": "PAVOdometerView/Classes/*.{h}"
+  }
 }

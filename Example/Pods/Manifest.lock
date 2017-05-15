@@ -1,16 +1,16 @@
 PODS:
-  - PAVOdometerView (0.1.0)
+  - PAVOdometerView (0.1.1)
 
 DEPENDENCIES:
   - PAVOdometerView (from `../`)
 
 EXTERNAL SOURCES:
   PAVOdometerView:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  PAVOdometerView: 7c94e0ac23170726c70cab627c0c17a472a3a9d6
+  PAVOdometerView: 5bd0bca64d4712831bbce9e6694c854a07fe0be0
 
 PODFILE CHECKSUM: b316ebc15ec462b0c0dcf58fbd5ebc6c9318595f
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.2.0

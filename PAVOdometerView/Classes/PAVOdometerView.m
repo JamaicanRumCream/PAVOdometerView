@@ -12,6 +12,8 @@
 
 @interface PAVOdometerView ()
 
+@property (nonatomic, strong) UIImageView *shineImageView;
+
 /** The initial number to start the odometer at when view is shown */
 @property (nonatomic, assign) NSUInteger startingNumber;
 
@@ -61,24 +63,25 @@
     return self;
 }
 
-- (void)setupOdometerWithStartingNumber:(NSUInteger)startingNumber numberColumnImage:(UIImage *)numberColumnImage odometerFrameImage:(UIImage *)odometerFrameImage numberOfDigits:(NSUInteger)numberOfDigits {
+- (void)setupOdometerWithStartingNumber:(NSUInteger)startingNumber numberColumnImage:(UIImage *)numberColumnImage odometerShineImage:(UIImage *)odometerShineImage numberOfDigits:(NSUInteger)numberOfDigits {
     if (!numberColumnImage) {
         NSAssert(false, @"Odometer setup missing the number image");
     }
     _startingNumber = startingNumber ?: 0;
     _numberColumnImage = numberColumnImage;
-    _odometerFrameImage = odometerFrameImage;
+    _odometerShineImage = odometerShineImage;
     _numberOfDigits = numberOfDigits;
     
     // If an image is provided, add the image view into view
-    if (odometerFrameImage) {
-        UIImageView *bezelImageView = [[UIImageView alloc] initWithImage:self.odometerFrameImage];
-        [bezelImageView setContentMode:UIViewContentModeScaleToFill];
-        [self addSubview:bezelImageView];
-        [self.leftAnchor constraintEqualToAnchor:bezelImageView.leftAnchor].active = YES;
-        [self.topAnchor constraintEqualToAnchor:bezelImageView.topAnchor].active = YES;
-        [self.rightAnchor constraintEqualToAnchor:bezelImageView.rightAnchor].active = YES;
-        [self.bottomAnchor constraintEqualToAnchor:bezelImageView.bottomAnchor].active = YES;
+    if (odometerShineImage) {
+        self.shineImageView = [[UIImageView alloc] initWithFrame:self.bounds];
+        self.shineImageView.image = self.odometerShineImage;
+        [self.shineImageView setContentMode:UIViewContentModeScaleToFill];
+        [self addSubview:self.shineImageView];
+//        [self.leftAnchor constraintEqualToAnchor:self.shineImageView.leftAnchor].active = YES;
+//        [self.topAnchor constraintEqualToAnchor:self.shineImageView.topAnchor].active = YES;
+//        [self.rightAnchor constraintEqualToAnchor:self.shineImageView.rightAnchor].active = YES;
+//        [self.bottomAnchor constraintEqualToAnchor:self.shineImageView.bottomAnchor].active = YES;
     }
     
     // !! IMPORTANT LAYOUT NOTE  - This assumes each digit image is a perfect square
@@ -89,6 +92,10 @@
     [self createStaticNumberColumns];
     [self moveStaticNumbersToNumber:startingNumber];
     [self createColumnPattern];
+    
+    if (odometerShineImage) {
+        [self bringSubviewToFront:self.shineImageView];
+    }
 }
 
 /** Creates the global number column color-pattern */
@@ -191,6 +198,7 @@
     }
     
     [UIView animateKeyframesWithDuration:self.animationTime delay:0.0 options:0 animations:^{
+        [self bringSubviewToFront:self.shineImageView];
         // default animation options is ease-in-out and looks a bit nicer than hard linear
         // UIViewKeyframeAnimationOptionCalculationModeLinear
         
@@ -201,6 +209,7 @@
         }
         
     } completion:^(BOOL finished) {
+        [self bringSubviewToFront:self.shineImageView];
         
         // make the start number be the end number, so we can animate again!
         self.startingNumber = newNumber;

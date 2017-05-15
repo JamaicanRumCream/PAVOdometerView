@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		06BF72F97057BB656A3E73DC /* Pods_PAVOdometerView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D03FB15F168008B62A9ACA4 /* Pods_PAVOdometerView_Example.framework */; };
 		5F78A2AE1EB915D100C4046A /* NumberColumn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F78A2AD1EB915D100C4046A /* NumberColumn.png */; };
+		5FD4A1CF1ECA403C00F63F00 /* OdometerShine.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FD4A1CE1ECA403C00F63F00 /* OdometerShine.png */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -42,6 +43,7 @@
 		152DBEAFD787501D98ADBAB8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3D03FB15F168008B62A9ACA4 /* Pods_PAVOdometerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PAVOdometerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F78A2AD1EB915D100C4046A /* NumberColumn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NumberColumn.png; path = PAVOdometerView/Graphics/NumberColumn.png; sourceTree = "<group>"; };
+		5FD4A1CE1ECA403C00F63F00 /* OdometerShine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OdometerShine.png; path = PAVOdometerView/Graphics/OdometerShine.png; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* PAVOdometerView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PAVOdometerView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				5F78A2AD1EB915D100C4046A /* NumberColumn.png */,
+				5FD4A1CE1ECA403C00F63F00 /* OdometerShine.png */,
 			);
 			name = Graphics;
 			path = ..;
@@ -294,6 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FD4A1CF1ECA403C00F63F00 /* OdometerShine.png in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				5F78A2AE1EB915D100C4046A /* NumberColumn.png in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
@@ -325,7 +329,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		41355D7B8AD6ADEFFFBAFE3E /* [CP] Embed Pods Frameworks */ = {
@@ -355,7 +359,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		AC66FBD11E21774DFF82A8A8 /* [CP] Copy Pods Resources */ = {
