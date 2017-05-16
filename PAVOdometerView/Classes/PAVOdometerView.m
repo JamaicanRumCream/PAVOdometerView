@@ -78,10 +78,6 @@
         self.shineImageView.image = self.odometerShineImage;
         [self.shineImageView setContentMode:UIViewContentModeScaleToFill];
         [self addSubview:self.shineImageView];
-//        [self.leftAnchor constraintEqualToAnchor:self.shineImageView.leftAnchor].active = YES;
-//        [self.topAnchor constraintEqualToAnchor:self.shineImageView.topAnchor].active = YES;
-//        [self.rightAnchor constraintEqualToAnchor:self.shineImageView.rightAnchor].active = YES;
-//        [self.bottomAnchor constraintEqualToAnchor:self.shineImageView.bottomAnchor].active = YES;
     }
     
     // !! IMPORTANT LAYOUT NOTE  - This assumes each digit image is a perfect square

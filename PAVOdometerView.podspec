@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PAVOdometerView'
-  s.version          = '0.1.1'
+  s.version          = '0.2.0'
   s.summary          = 'A view that mimics an analog automobile odometer.'
 
   s.description      = 'A subclass of UIView that mimics an analog automobile odometer. It has multiple columns of numbers that when animated, will "rotate" each column a correct number of times to scroll up to the new number. The animation is not 100% correct in that it does not "rachet" a columns preceding digit, it only smoothly animates all columns simultaneous at this time.'

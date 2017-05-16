@@ -266,7 +266,7 @@
 				ORGANIZATIONNAME = JamaicanRumCream;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = 9J2YYDSNEB;
+						DevelopmentTeam = X6X8KN4ENZ;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -554,7 +554,7 @@
 			baseConfigurationReference = CE86F08436917962C7401218 /* Pods-PAVOdometerView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9J2YYDSNEB;
+				DEVELOPMENT_TEAM = X6X8KN4ENZ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PAVOdometerView/PAVOdometerView-Prefix.pch";
 				INFOPLIST_FILE = "PAVOdometerView/PAVOdometerView-Info.plist";
@@ -571,7 +571,7 @@
 			baseConfigurationReference = 73B160107DE1CA6E1D0ABBA2 /* Pods-PAVOdometerView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9J2YYDSNEB;
+				DEVELOPMENT_TEAM = X6X8KN4ENZ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PAVOdometerView/PAVOdometerView-Prefix.pch";
 				INFOPLIST_FILE = "PAVOdometerView/PAVOdometerView-Info.plist";
