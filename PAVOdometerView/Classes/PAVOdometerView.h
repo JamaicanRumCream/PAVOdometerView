@@ -24,7 +24,7 @@
 
 @interface PAVOdometerView : UIView
 
-@property (nonatomic, strong) id<pavOdometerViewDelegate> delegate;
+@property (nonatomic, weak) id<pavOdometerViewDelegate> delegate;
 
 /** Image for the display of the numbers in a column */
 @property (nonatomic, strong) UIImage *numberColumnImage;
